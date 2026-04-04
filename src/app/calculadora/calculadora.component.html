@@ -24,10 +24,10 @@
       </button>
     </form>
 
-    @if(resultado != 0 && resultado != null && resultado != undefined){
-    <div class="result-display">
-        <p>Resultado: {{ resultado }}</p>
-    </div>
+    @if(resultado){
+        <div class="result-display">
+            <p>Resultado: {{ resultado }}</p>
+        </div>
     }
 
     
